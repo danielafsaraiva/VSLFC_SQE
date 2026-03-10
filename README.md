@@ -15,7 +15,7 @@ This repository contains the supplementary data for the research article submitt
 
 ## 2. File Nomenclature (Coded PNGs)
 The files in the `/coded` directory follow this format:  
-`[LF_Name]_[CodingMethod]_[Row]_[Col]_[Bitrate_Identifier].png`
+`[LF_Name]_[CodingMethod]_[Row]_[Col]_[Lambda/QP].png`
 
 **Example:** `Bicycle_Pleno3x3_002_004_2840.png`
 * **LF_Name**: Source light field.
