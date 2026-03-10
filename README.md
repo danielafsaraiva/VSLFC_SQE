@@ -55,12 +55,31 @@ The configuration tables provide the exact settings used to obtain the coded lig
 
 ---
 
-## 4. Subjective Testing Details
-Subjective scores are provided in `/thurstone results`. For these tests, specific representative views were selected from the 5x5 grid:
-* **Central**: (002, 002)
-* **Horizontal**: (002, 004)
-* **Vertical**: (004, 002)
-* **Diagonal**: (004, 004)
+## 4. Thurstone Subjective Results (`/thurstone results`)
+
+Subjective quality scores are provided for **Cross-Codec** and **Cross-Method** comparisons.
+
+### View Type Selection
+Three views were selected for each light field based on the lowest MS-SSIM at the highest bitrate ($R_4$) when processed via the VTM-synthesized pipeline.
+
+| Scene | View Type | View Index (Row_Col) | Description |
+| :--- | :--- | :--- | :--- |
+| **Bicycle** | 0 | 004_002 | Original compressed view |
+| **Bicycle** | 1 | 004_001 | 1st-generation synthesized |
+| **Bicycle** | 2 | 003_001 | 2nd-generation synthesized |
+
+*(Note: Add other scenes to this table as applicable)*
+
+### CSV Data Description
+The files utilize the **Thurstone Case V model** to estimate a quality scale where higher values indicate better perceived quality.
+
+| Column | Description |
+| :--- | :--- |
+| **scene** | The light field name and view type (e.g., `Bicycle_0`). |
+| **condition** | The coding configuration and bitrate level (e.g., `Pleno3x3_R1`). |
+| **jod** | Just Objectionable Difference; the estimated quality score (normalized to [0,1]). |
+| **jod_low / jod_high** | Lower and upper bounds for the JOD score. |
+| **CIlow / CIhigh** | Lower and upper bounds of the confidence intervals. |
 
 ---
 
