@@ -8,7 +8,7 @@ This repository contains the supplementary data for the research article submitt
 
 - **Datasets (Coded & Original)**: Due to file size constraints, all ZIP archives are hosted in the **[Releases section](https://github.com/danielafsaraiva/TCSVT_rep/releases/tag/v1.0)**.
 - `/configs`: CSV files (`jpeg_pleno_cfg.csv`, `vvc_cfg.csv`) with encoding parameters.
-- `/thurstone results`: CSV files containing the Thurstone subjective scaling data.
+- `/thurstone_results`: CSV files containing the Thurstone subjective data.
 
 ---
 
