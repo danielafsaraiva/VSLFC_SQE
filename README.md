@@ -1,4 +1,4 @@
-# TCSVT_rep: Supplementary Material for Light Field Coding Evaluation
+# Repository for "Paper"
 
 This repository contains the supplementary data for the research article submitted to **IEEE TCSVT**. it includes coded light fields, original source views, subjective scaling results, and encoding configurations.
 
