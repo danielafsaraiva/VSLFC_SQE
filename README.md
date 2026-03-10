@@ -1,6 +1,6 @@
 # Repository for "Paper"
 
-This repository contains the supplementary data for the research article submitted to **IEEE TCSVT**. it includes coded light fields, original source views, subjective scaling results, and encoding configurations.
+This repository contains the supplementary data for the research article submitted to **To be Added**. It includes coded light fields, original source views, subjective results, and encoding configurations.
 
 ---
 
