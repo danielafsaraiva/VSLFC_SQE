@@ -6,10 +6,9 @@ This repository contains the supplementary data for the research article submitt
 
 ## 1. Directory Structure
 
-- **Coded Light Fields**: Due to file size constraints, the coded PNGs are provided as ZIP archives (Pleno3x3, Pleno5x5, VVC3x3, VVC5x5). They are available for download here: **[Coded Datasets v1.0](https://github.com/danielafsaraiva/TCSVT_rep/releases/tag/v1.0)**.
+- **Datasets (Coded & Original)**: Due to file size constraints, all ZIP archives are hosted in the **[Releases section](https://github.com/danielafsaraiva/TCSVT_rep/releases/tag/v1.0)**.
 - `/configs`: CSV files (`jpeg_pleno_cfg.csv`, `vvc_cfg.csv`) with encoding parameters.
-- `/originals_LFs`: The original source views (inner 5x5 grid).
-- `/thurstone_results`: CSV files containing the Thurstone subjective data.
+- `/thurstone results`: CSV files containing the Thurstone subjective scaling data.
 
 ---
 
