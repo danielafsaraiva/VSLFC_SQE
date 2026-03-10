@@ -27,21 +27,22 @@ The files in the `/coded` directory follow this format:
 
 ## 3. Configuration Parameters (`/configs`)
 
-The configuration tables provide the exact settings used to obtain the coded light fields, ensuring experimental reproducibility.
+The configuration tables provide the exact settings used to obtain the coded light fields. Note the specific control parameters used for each standard:
+
+* **For VVC**: The **QP** (Quantization Parameter) is used for the **VTM reference software** under the Random Access configuration.
+* **For JPEG Pleno**: The **Lambda ($\lambda$)** variable is used to control the **Rate-Distortion tradeoff in JPEG Pleno 4D-TM**.
 
 ### Column Descriptions
 | Column | Description |
 | :--- | :--- |
 | **Scene** | The name of the source light field content. |
 | **Coding Method** | The specific codec configuration (Pleno 3x3/5x5 or VVC 3x3/5x5). |
-| **Lambda / QP** | The Rate-Distortion control parameter (**Lambda** ($\lambda$) for JPEG Pleno; **QP** for VVC/VTM). |
+| **Lambda / QP** | The primary rate control parameter ($\lambda$ for JPEG Pleno; QP for VVC). |
 | **Target Bitrate** | The intended bitrate in bits per pixel (bpp). |
 | **BPP** | The actual resulting bitrate (bits per pixel) of the encoded light field. |
 | **Rate** | The nomenclature identifier ($R_1, R_2, R_3, R_4$) used in subjective results. |
 
 ### Rate Mapping
-To facilitate cross-referencing with the Thurstone subjective results, the identifiers map to the following target bitrates:
-
 | Identifier | Target Bitrate (bpp) | Description |
 | :--- | :--- | :--- |
 | **R1** | 0.118 | Lowest bitrate point |
