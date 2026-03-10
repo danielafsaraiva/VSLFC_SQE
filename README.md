@@ -9,7 +9,7 @@ This repository contains the supplementary data for the research article submitt
 - `/coded`: Contains sub-folders for each method (`Pleno3x3`, `Pleno5x5`, `VVC3x3`, `VVC5x5`).
 - `/configs`: CSV files (`jpeg_pleno_cfg.csv`, `vvc_cfg.csv`) with encoding parameters.
 - `/originals_5x5`: The original source views (inner 5x5 grid).
-- `/thurstone results`: CSV files containing the Thurstone subjective scaling data.
+- `/thurstone results`: CSV files containing the Thurstone subjective data.
 
 ---
 
@@ -25,13 +25,29 @@ The files in the `/coded` directory follow this format:
 
 ---
 
-## 3. Configuration Parameters
-The CSVs in `/configs` describe the experimental points:
-* **Target Bitrate**: Intended bitrate (bpp).
-* **Lambda**: RD-tradeoff parameter for JPEG Pleno.
-* **QP**: Quantization Parameter for VVC (VTM).
-* **Bitstream (bytes)**: Total file size.
-* **Bitrate**: Final resulting bitrate in bpp.
+## 3. Configuration Parameters (`/configs`)
+
+The configuration tables provide the exact settings used to obtain the coded light fields, ensuring experimental reproducibility.
+
+### Column Descriptions
+| Column | Description |
+| :--- | :--- |
+| **Scene** | The name of the source light field content. |
+| **Coding Method** | The specific codec configuration (Pleno 3x3/5x5 or VVC 3x3/5x5). |
+| **Lambda / QP** | The Rate-Distortion control parameter (**Lambda** ($\lambda$) for JPEG Pleno; **QP** for VVC/VTM). |
+| **Target Bitrate** | The intended bitrate in bits per pixel (bpp). |
+| **BPP** | The actual resulting bitrate (bits per pixel) of the encoded light field. |
+| **Rate** | The nomenclature identifier ($R_1, R_2, R_3, R_4$) used in subjective results. |
+
+### Rate Mapping
+To facilitate cross-referencing with the Thurstone subjective results, the identifiers map to the following target bitrates:
+
+| Identifier | Target Bitrate (bpp) | Description |
+| :--- | :--- | :--- |
+| **R1** | 0.118 | Lowest bitrate point |
+| **R2** | 0.236 | Low-medium bitrate point |
+| **R3** | 0.472 | Medium-high bitrate point |
+| **R4** | 1.003 | Highest bitrate point |
 
 ---
 
