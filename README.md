@@ -69,6 +69,7 @@ This repository contains the supplementary data for the research article submitt
 - `/configs`: CSV files (`jpeg_pleno_cfg.csv`, `vvc_cfg.csv`) with encoding parameters.
 - `/originals_5x5`: The original source views (inner 5x5 grid).
 - `/thurstone results`: CSV files containing the Thurstone subjective scaling data.
+- **Coded Light Fields**: Due to file size constraints, the coded PNGs are provided as ZIP archives in the [Releases section](../../releases).
 
 ---
 
