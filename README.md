@@ -14,14 +14,17 @@ This repository contains the supplementary data for the research article submitt
 ---
 
 ## 2. File Nomenclature (Coded PNGs)
-The files in the `/coded` directory follow this format:  
-`[LF_Name]_[CodingMethod]_[Row]_[Col]_[Lambda/QP].png`
+
+The PNG files in the `/coded` directory follow this naming convention:  
+**`[LF_Name]_[CodingMethod]_[Row]_[Col]_[Lambda_or_QP].png`**
 
 **Example:** `Bicycle_Pleno3x3_002_004_2840.png`
-* **LF_Name**: Source light field.
-* **Method**: Codec/Method (e.g., Pleno3x3).
-* **Row/Col**: Vertical and horizontal view index.
-* **Bitrate_Identifier**: Identifier linked to the bitstream size in the config files.
+* **LF_Name**: Source light field (e.g., *Bicycle*).
+* **CodingMethod**: The codec and method used (e.g., *Pleno3x3*).
+* **Row/Col**: Vertical and horizontal index of the view within the 5x5 grid.
+* **Lambda/QP**: The specific control parameter value used for that encoding.
+    * For **JPEG Pleno**, this is the **Lambda ($\lambda$)** value.
+    * For **VVC**, this is the **Quantization Parameter (QP)**.
 
 ---
 
