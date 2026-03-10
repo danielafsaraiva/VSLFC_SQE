@@ -12,18 +12,18 @@ This repository contains the supplementary data for the research article submitt
 
 ---
 
-## 2. File Nomenclature (Coded PNGs)
+## 2. File Nomenclature (Coded Light Fields)
 
-The PNG files in the `/coded` directory follow this naming convention:  
+The PNG files contained within the ZIP archives (available in the [Releases section](https://github.com/danielafsaraiva/TCSVT_rep/releases/tag/v1.0)) follow this naming convention:  
 **`[LF_Name]_[CodingMethod]_[Row]_[Col]_[Lambda_or_QP].png`**
 
 **Example:** `Bicycle_Pleno3x3_002_004_2840.png`
 * **LF_Name**: Source light field (e.g., *Bicycle*).
 * **CodingMethod**: The codec and method used (e.g., *Pleno3x3*).
 * **Row/Col**: Vertical and horizontal index of the view within the 5x5 grid.
-* **Lambda/QP**: The specific control parameter value used for that encoding.
-    * For **JPEG Pleno**, this is the **Lambda ($\lambda$)** value.
-    * For **VVC**, this is the **Quantization Parameter (QP)**.
+* **Lambda/QP**: The specific control parameter value used for that encoding:
+    * For **JPEG Pleno**, this represents the **Lambda ($\lambda$)** value.
+    * For **VVC**, this represents the **Quantization Parameter (QP)**.
 
 ---
 
