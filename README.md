@@ -6,9 +6,9 @@ This repository contains the supplementary data for the research article submitt
 
 ## 1. Directory Structure
 
-- `/coded`: Contains sub-folders for each method (`Pleno3x3`, `Pleno5x5`, `VVC3x3`, `VVC5x5`).
+- `/coded_LFs`: Contains sub-folders for each method (`Pleno3x3`, `Pleno5x5`, `VVC3x3`, `VVC5x5`).
 - `/configs`: CSV files (`jpeg_pleno_cfg.csv`, `vvc_cfg.csv`) with encoding parameters.
-- `/originals_5x5`: The original source views (inner 5x5 grid).
+- `/originals_LFs`: The original source views (inner 5x5 grid).
 - `/thurstone results`: CSV files containing the Thurstone subjective data.
 
 ---
