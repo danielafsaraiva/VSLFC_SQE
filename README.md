@@ -144,8 +144,3 @@ The specific views chosen for each light field were determined by identifying th
 ### CSV Data Description
 The subjective test used a **pairwise comparison** method in which subjects identified which stimulus showed the most flicker. Consequently, the results use the **Thurstone Case V model** to estimate a quality scale in which **higher values indicate greater perceived flicker (lower quality)**.
 
-
----
-
-## 5. Contact & Feedback
-*Note to Co-authors: Please review the nomenclature and data structure. Suggest any alterations via the Issues tab or by editing this file directly.*
