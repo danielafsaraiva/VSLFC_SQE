@@ -1,4 +1,4 @@
-# Repository for "Subjective Evaluation of Low Distortion Coded Light Fields with View Synthesis"
+# Repository for "View Synthesis in Light Field Coding: A Subjective Quality Evaluation"
 
 This repository contains the supplementary data for the research article submitted to TCSVT. It includes coded light fields, original source views, subjective results, and encoding configurations.
 
