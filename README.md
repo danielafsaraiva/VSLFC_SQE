@@ -1,6 +1,6 @@
-# Repository for "Paper"
+# Repository for "Subjective Evaluation of Low Distortion Coded Light Fields with View Synthesis"
 
-This repository contains the supplementary data for the research article submitted to **To be Added**. It includes coded light fields, original source views, subjective results, and encoding configurations.
+This repository contains the supplementary data for the research article submitted to TCSVT*. It includes coded light fields, original source views, subjective results, and encoding configurations.
 
 ---
 
